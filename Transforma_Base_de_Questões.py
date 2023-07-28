@@ -1,7 +1,7 @@
-def transforma_base(questoes):
+def transforma_base(questôes):
     resultado = {}
 
-    for questao in questoes:
+    for questao in questôes:
         nivel = questao['nivel']
 
         if nivel in resultado:
